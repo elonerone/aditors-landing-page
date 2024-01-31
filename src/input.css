@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "vazir";
+    src: url("../fonts/vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir-Bold.ttf") format("openType");
+  }

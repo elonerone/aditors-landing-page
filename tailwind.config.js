@@ -2,6 +2,12 @@
 module.exports = {
   content: ["./public/*.html"],
   theme: {
+
+        fontFamily: {
+          vazir: ["vazir", "vazir"],
+          
+        },
+    
     extend: {
       screens: {
         '2xl': {'max': '1535px'},
@@ -19,6 +25,8 @@ module.exports = {
         'sm': {'max': '639px'},
         // => @media (max-width: 639px) { ... }
       }
+
+      
     },
   },
   plugins: [],
